@@ -1,0 +1,92 @@
+
+  @font-face {
+    font-family: poppinsthin;
+    src: url("./../fonts/poppinsthin.woff");
+  }
+  @font-face {
+    font-family: poppinslight;
+    src: url("./../fonts/poppinslight.woff");
+  }
+  @font-face {
+    font-family: poppinsregular;
+    src: url("./../fonts/poppinsregular.woff");
+  }
+  @font-face {
+    font-family: poppinsmedium;
+    src: url("./../fonts/poppinsmedium.woff");
+  }
+  @font-face {
+    font-family: poppinssemibold;
+    src: url("./../fonts/poppinssemibold.woff");
+  }
+  @font-face {
+    font-family: poppinsbold;
+    src: url("./../fonts/poppinsbold.woff");
+  }
+ 
+  @font-face {
+    font-family: IBMPlexSansBold;
+    src: url("./fonts/IBMPlexSansBold.ttf");
+  }
+   
+  @font-face {
+    font-family: IBMPlexSansBoldItalic;
+    src: url("./fonts/IBMPlexSansBoldItalic.ttf");
+  }
+  @font-face {
+    font-family: IBMPlexSansLight;
+    src: url("./fonts/IBMPlexSansLight.ttf");
+  }
+  @font-face {
+    font-family: IBMPlexSansMedium;
+    src: url("./fonts/IBMPlexSans-Medium.ttf");
+  }
+  @font-face {
+    font-family: IBMPlexSansRegular;
+    src: url("./fonts/IBMPlexSans-Regular.ttf");
+  }
+  @font-face {
+    font-family: IBMPlexSansSemiBold;
+    src: url("./fonts/IBMPlexSans-SemiBold.ttf");
+  }
+  /* @font-face {  font-family: poppinsthin; 
+    font-weight: 300;  font-style: normal; 
+    font-display: swap; 
+      unicode-range: U+000-5FF; 
+  src: local( poppinsthin),     
+  url('./../fonts/poppinsthin-webfont.woff') format('woff'),  
+             url('./../fonts/poppinsthin-webfont.woff2') format('woff2');}
+  */
+  /* 
+  @font-face {
+    font-family: ibmbold;
+    src: url("./../fonts/IBMPlexSans-Bold.ttf");
+  }
+  @font-face {
+    font-family: ibmlight;
+    src: url("./../fonts/IBMPlexSans-Light.ttf");
+  }
+  @font-face {
+    font-family: ibmmedium;
+    src: url("./../fonts/IBMPlexSans-Medium.ttf");
+  }
+  @font-face {
+    font-family: ibmregular;
+    src: url("./../fonts/IBMPlexSans-Regular.ttf");
+  }
+  @font-face {
+    font-family: ibmsemibold;
+    src: url("./../fonts/IBMPlexSans-SemiBold.ttf");
+  }
+  @font-face {
+    font-family: ibmthin;
+    src: url("./../fonts/IBMPlexSans-Thin.ttf");
+  }
+  @font-face {
+    font-family: sofialight;
+    src: url("./../fonts/sofiaProLight.otf");
+  }
+  @font-face {
+    font-family: ivyregular;
+    src: url("./../fonts/IvyMode-Regular.ttf");
+  }*/

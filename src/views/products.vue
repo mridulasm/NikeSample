@@ -1,11 +1,11 @@
 <template>
   <div>
     <v-layout wrap justify-center py-4 px-14>
-      <v-flex xs2 align-self-center text-left>
+      <v-flex xs6 sm6 md2 align-self-center text-left>
         <span class="boldfont">Men shoes</span>
       </v-flex>
       <v-spacer></v-spacer>
-      <v-flex xs2 pr-4 align-self-center>
+      <v-flex xs6 sm6 md2 pr-4 align-self-center>
         <v-select
           v-model="filtertype"
           :items="filtertypes"

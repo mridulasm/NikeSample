@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-layout wrap justify-start>
-      <v-flex xs12 text-left>
+      <v-flex xs12 text-left px-8>
         <span style="font-family: poppinssemibold; font-size: 20px; color: #000000">
           {{ name }}
         </span>

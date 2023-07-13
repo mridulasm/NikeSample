@@ -1,8 +1,8 @@
 <template>
   <div>
-    <v-layout wrap pt-5 v-if="productDetails" px-4>
+    <v-layout wrap pt-5 v-if="productDetails" >
       <v-flex xs12>
-        <v-layout wrap justify-center>
+        <v-layout wrap justify-center px-4>
           <v-flex xs12 md7 align-self-start px-4>
             <!--------------------- image --------------------->
             <v-layout wrap justify-center>
@@ -84,7 +84,7 @@
                     </span>
                   </v-flex>
                   <v-flex xs12 class="title3" py-2 style="text-align: justify;">{{ productDetails.description }}</v-flex>
-                  <v-flex py-4 xs12 sm4 align-self-center><v-btn color="black" dark block  class="btn1"><v-icon class="lightfont">mdi-cart-outline</v-icon>  Add to cart</v-btn></v-flex>
+                  <v-flex py-4 xs12 sm5 align-self-center><v-btn color="black" dark block  class="btn1"><v-icon class="lightfont">mdi-cart-outline</v-icon>  Add to cart</v-btn></v-flex>
                   <v-flex py-4 xs12 sm4 class="title3"  px-3 align-self-center>$ : {{ productDetails.price }}</v-flex>
                
                 </v-layout>
@@ -115,13 +115,13 @@
           </v-flex>
         </v-layout>
         <v-layout wrap>
-          <v-flex xs12 pa-4>
+          <v-flex xs12 py-4>
          <productsSlider
          v-bind:name="'You may also like'"
               v-bind:products="similarProducts"/>
           </v-flex>
         </v-layout>
-        <v-layout wrap>
+        <v-layout wrap px-4>
           <v-flex xs12 pa-4>
        <Advertisement/>
       </v-flex>

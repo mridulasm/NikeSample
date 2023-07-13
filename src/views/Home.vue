@@ -1,39 +1,39 @@
 <template>
   <div style="height: 100vh">
-    <v-layout wrap fill-height>
+    <v-layout wrap fill-height px-2 px-sm-0>
       <v-flex xs12 sm3 align-self-center pl-lg-16>
         <v-layout wrap justify-left pl-lg-10 style="color: grey">
-          <v-flex xs12 pb-2>
+          <v-flex xs12 pb-2 text-left>
             <span class="SemiBold1">{{ slides[currentIndex].model }}</span>
           </v-flex>
-          <v-flex xs12>
+          <v-flex xs12 text-left>
             <span class="regular1">Colours</span>
           </v-flex>
-          <v-flex xs12 sm8 py-3 align-self-center>
+          <v-flex xs12 sm8 py-3 align-self-center text-left>
             <v-layout justify-space-between>
-              <v-flex>
+              <v-flex xs1>
                 <v-icon color="red">mdi-circle</v-icon>
               </v-flex>
-              <v-flex>
+              <v-flex xs1>
                 <v-icon color="green">mdi-circle</v-icon>
               </v-flex>
-              <v-flex> <v-icon color="black">mdi-circle</v-icon> </v-flex
-              ><v-flex> <v-icon color="yellow">mdi-circle</v-icon> </v-flex
-              ><v-flex> <v-icon color="orange">mdi-circle</v-icon> </v-flex>
+              <v-flex xs1> <v-icon color="black">mdi-circle</v-icon> </v-flex
+              ><v-flex xs1> <v-icon color="yellow">mdi-circle</v-icon> </v-flex
+              ><v-flex xs1> <v-icon color="orange">mdi-circle</v-icon> </v-flex>
             </v-layout>
           </v-flex>
 
-          <v-flex xs12>
+          <v-flex xs12 text-left>
             <span class="medium1">${{ slides[currentIndex].price }}</span>
           </v-flex>
-          <v-flex xs12 py-3>
+          <v-flex xs12 text-left py-3>
             <span class="regular1">Sizes</span>
           </v-flex>
 
-          <v-flex xs12 pb-3>
+          <v-flex xs12 text-left pb-3>
             <span class="light1">S , SM , MD , XL , XXL</span>
           </v-flex>
-          <v-flex xs12 pt-4>
+          <v-flex xs12 text-left pt-4>
             <v-btn dark color="black" width="200px" class="light1"> BUY NOW </v-btn>
           </v-flex>
         </v-layout>
@@ -73,7 +73,7 @@
                 </v-avatar>
               </v-flex>
               <v-flex py-3 xs12 align-self-center text-center>
-                <v-avatar>
+                <v-avatar size="100">
                   <img :src="src2" alt="John" />
                 </v-avatar>
               </v-flex>

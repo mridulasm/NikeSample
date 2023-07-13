@@ -2,7 +2,7 @@
     <div>
      
       <v-layout wrap justify-center>
-        <v-flex xs12 px-4>
+        <v-flex xs12>
           <v-layout wrap>
             <v-flex xs12 md4 pr-0 pr-sm-1>
               <v-card flat >
